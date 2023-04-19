@@ -30,8 +30,9 @@ sections:
           icon_pack: fas
 
   - block: experience
+    id: industry
     content:
-      title: Work Experience
+      title: Industry
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -66,6 +67,48 @@ sections:
           location: Bangalore, Karnataka, India
           date_start: '2006-05-01'
           date_end: '2008-07-31'
+          description: 
+    design:
+      columns: '2'
+
+  - block: experience
+    id: research
+    content:
+      title: Research
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Doctoral Researcher
+          company: University of Massachusetts Amherst
+          company_url: 'https://www.umass.edu'
+          company_logo: ''
+          location: Amherst, MA
+          date_start: '2012-09-04'
+          date_end: '2019-08-30'
+          description: 
+
+        - title: Research Intern
+          company: Deutsche Telekom Silicon Valley Innovation Center
+          company_url: 'https://www.t-mobile.com/labs'
+          company_logo: ''
+          location: Mountain View, CA
+          date_start: '2015-05-10'
+          date_end: '2015-09-28'
+          description: 
+
+        - title: Research Intern
+          company: Deutsche Telekom Silicon Valley Innovation Center
+          company_url: 'https://www.t-mobile.com/labs'
+          company_logo: ''
+          location: Mountain View, CA
+          date_start: '2014-04-10'
+          date_end: '2014-08-15'
           description: 
     design:
       columns: '2'
