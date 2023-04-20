@@ -12,20 +12,18 @@ sections:
       username: abhishek
       # Override your bio text from `authors/admin/_index.md`?
       text:
+
   - block: features
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
+        - name: Python, C/C++ and Java
           icon: r-project
           icon_pack: fab
-        - name: Statistics
-          description: 100%
+        - name: Layer-2/3 Networking Development
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: Tensorflow, Keras, scikit-learn, sPacy
           icon: camera-retro
           icon_pack: fas
 
